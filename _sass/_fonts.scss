@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'ReemLight';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-light.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-light.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-light.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-light.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-light.svg#itv_reem_lightregular") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ReemLightItalic';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-lightitalic.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-lightitalic.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-lightitalic.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-lightitalic.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-lightitalic.svg#itv_reem_lightitalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ReemRegular';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-regular.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-regular.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-regular.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-regular.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-regular.svg#itv_reemregular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ReemItalic';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-italic.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-italic.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-italic.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-italic.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-italic.svg#itv_reemitalic") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ReemMedium';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-medium.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-medium.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-medium.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-medium.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-medium.svg#itv_reem_mediumregular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ReemMediumItalic';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-mediumitalic.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-mediumitalic.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-mediumitalic.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-mediumitalic.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-mediumitalic.svg#itv_reem_mediumitalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ReemBold';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bold.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bold.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bold.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bold.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bold.svg#itv_reembold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ReemBoldItalic';
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bolditalic.eot");
+  src: url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bolditalic.eot?#iefix") format("embedded-opentype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bolditalic.woff") format("woff"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bolditalic.ttf") format("truetype"), url("https://www.itvstatic.com/assets/fonts/reem/itv_reem_web-bolditalic.svg#itv_reembold_italic") format("svg");
+  font-weight: 700;
+  font-style: italic;
+}

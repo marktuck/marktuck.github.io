@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+{% include header.html %}
+
+<nav class="site-nav">
+  <div>
+    <ul>
+      {% for n1 in site.data.nav %}
+      {% assign n1Pages = (site.pages | where: "path" , n1.top) %}
+
+      {% for p1 in n1Pages %}
+      {% if p1.url == page.url %}
+      <li><a class="active-page-link" href="{{ p1.url | prepend: site.baseurl }}">{{ p1.title }}</a></li>
+      {% else %}
+      <li><a class="page-link" href="{{ p1.url | prepend: site.baseurl }}">{{ p1.title }}</a></li>
+      {% endif %}
+      {% endfor %}
+
+      <ul>
+        {% for n2 in n1.pages %}
+        {% assign n2Pages = (site.pages | where: "path", n2) %}
+        {% for p2 in n2Pages %}
+        {% if p2.url == page.url %}
+        <li><a class="active-page-link" href="{{ p2.url | prepend: site.baseurl }}">{{ p2.title }}</a></li>
+        {% else %}
+        <li><a class="page-link" href="{{ p2.url | prepend: site.baseurl }}">{{ p2.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+        {% endfor  %}
+      </ul>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+
+<div class="page-content">
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</div>
+
+{% include footer.html %}
+
+</body>
+
+</html>
