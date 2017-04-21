@@ -3,9 +3,11 @@ layout: default
 ---
 <div class="home">
 
+  <h1 class="homepage-title">Recent Posts</h1>
+
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
+      <li class="post-listing">
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }} 
           {% if post.author and post.authorLink %}
             | written by <a href="{{post.authorLink}}">{{post.author}}</a>

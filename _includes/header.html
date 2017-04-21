@@ -1,15 +1,19 @@
 <header class="site-header">
 
   <div class="wrapper">
+    <div class="header-title">
+    <span class="header-logo"></span>
+    <!--<a class="site-logo" href="{{ site.baseurl }}/">
+       // <img src="{{ "/images/itv-logo.png" | prepend: site.baseurl }}" alt="itv" class="logo" /> 
+    </a>-->
 
-    <a class="site-logo" href="{{ site.baseurl }}/">
-      <img src="{{ "/images/itv-logo.png" | prepend: site.baseurl }}" alt="itv" class="logo" />
-    </a>
-
-    <a class="site-title" href="{{ site.baseurl }}/">| Tech</a>
+    <a class="site-title" href="{{ site.baseurl }}/">TECH</a>
+  </div>
+    
       <nav class="site-nav">
 
           <div class="trigger">
+              <a class="page-link" href="{{ site.baseurl }}/">Home</a>
               {% for my_page in site.pages %}
               {% if my_page.title %}
               <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
